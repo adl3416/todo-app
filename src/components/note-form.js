@@ -18,6 +18,7 @@ const NoteForm = ({createNote}) => {     /* todoapp den gönderilen propsu burda
           <Button variant='warning' onClick={()=> createNote(message)}> Create Note</Button>              {/* burdanda {createNote} cagirip ona message gönderiyoruz */}
      </Form>
   )
+  
 }
 
 export default NoteForm
