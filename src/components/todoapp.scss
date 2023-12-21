@@ -1,0 +1,16 @@
+.todo-card{
+     .buttons{
+          display: flex;
+          gap: 2rem;
+
+          span{
+               &:first-child{
+                    color: navy;
+               }
+
+               &:last-child{
+                    color: red;
+               }
+          }
+     }
+}
