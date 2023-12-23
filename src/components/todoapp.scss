@@ -1,16 +1,20 @@
+.todoapp{
+     background-color: bisque;
+}
+
 .todo-card{
      .buttons{
           display: flex;
-          gap: 2rem;
+          gap: 3rem;
 
           span{
                cursor: pointer;
                &:first-child{
-                    color: navy;
+                    color: rgb(73, 128, 0);
                }
 
                &:last-child{
-                    color: red;
+                    color: rgb(162, 0, 255);
                }
           }
      }
