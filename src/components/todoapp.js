@@ -10,7 +10,7 @@ const ToDoApp = () => {
 
 
        //CREATE
-     const createNote=(message)=>{                       // 2noteformdan gelen not buraya eklencek
+     const createNote=(message)=>{                       // 2noteformdan gelen not buraya eklendi
 
           const note ={
                id :  Date.now(),
